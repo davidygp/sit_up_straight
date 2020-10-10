@@ -1,0 +1,19 @@
+{
+    "processed_Xth_frame":3,
+    "frameWidth":960,
+    "frameHeight":720,
+    
+    "eye_threshold_in_pixels":5,
+    "tilt_frontback_threshold_in_pixels":20,	
+    "tilt_leftright_threshold_in_degrees":15,
+    "tilt_shoulder_threshold_in_pixels":20,
+    "overall_okay_threshold":0.5,
+
+    "wrong_posture_duration_in_seconds":3,
+    "seated_duration_in_seconds":60,
+
+    "soundclip_filepath":"./bleepsound_cut.mp3",
+    "face_landmarks_dat_filepath":"./models/shape_predictor_68_face_landmarks.dat",
+    "human_pose_prototxt_filepath":"./models/pose_deploy_linevec.prototxt",
+    "human_pose_caffemodel_filepath":"./models/pose_iter_440000.caffemodel"
+}
